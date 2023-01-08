@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Translated Texts</title>
+  </head>
+  <body>
+    <h1>Translated Texts</h1>
+    <ul>
+      {% for text in texts %}
+        <li>
+          <h2>Original Text: {{ text['originalText'] }}</h2>
+          <h2>Translated Text: {{ text['translatedText'] }}</h2>
+          <p>Language: {{ text['language'] }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
