@@ -1,6 +1,6 @@
 # ProiectCloud
 TranslatorSite
-Proiect bazat pe lucrurile facute la laborator
+Proiect bazat pe lucrurile facute la laborator\n
 Am realizat folosind free trial de la Azure
 Proiectul este impartit in:
   -website (Pe un Vm)
