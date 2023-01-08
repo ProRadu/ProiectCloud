@@ -66,9 +66,11 @@ Proiectul este impartit in:
    In momentul testarii load balancer-elor catre scale seturi se observa ca desi era doar o masina pornita in fiecare scale set conform planului de idle, 
    nu se putea accesa site-ul nici pe ip-ul public al load balancerului, nici specificand portul 8075 dupa ip. In cazul load balancer-ului de worker
    se observa ca nu efectueaza traducei, desi, asemenea celui pentru website, mentinea doar o masina pornita in scale set in idle.
+   
    Atat in cazul scale set-ului website-ului, cat si in cel al scale setu-ului worker-ului am completat zona de custom commands in momentul creari lor 
    pentru a trimite comenzile de activare a enverioment-urilor si a rularii fisierelor .py, dar se pare ca tot nu au pornit nici fisierul site-ului, nici
    fisierul worker-ului.
+   
    Cum subscriptia de free trial permite doar 3 ip-uri publice, am sters load balancer-ul si scale set-ul pentru worker pentru a avea activ pe cont
    in momentul prezentarii cele 2 Vm de Demo pentru a arata functionalitatea site-ului si workerului.
    
